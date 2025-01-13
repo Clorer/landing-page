@@ -79,9 +79,10 @@ html, body{
     text-align: center; 
 }
 
-.member_cards_1, .member_cards_2{
+.member_cards{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .member_card>h3{
