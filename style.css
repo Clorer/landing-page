@@ -73,15 +73,15 @@ html, body{
 }
 
 .member_card{
+    gap: 60px;
     width: 283px;
     height: 350px;
-    text-align: center;
-    display: inline-block;
+    text-align: center; 
 }
 
-.member_card:nth-child(3n+3){
-    margin-left: 120px;
-    margin-right: 120px;
+.member_cards_1, .member_cards_2{
+    display: flex;
+    justify-content: space-between;
 }
 
 .member_card>h3{
